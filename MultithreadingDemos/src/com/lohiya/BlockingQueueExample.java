@@ -33,6 +33,7 @@ class Producer implements Runnable{
             System.out.println("Produced 1");
             Thread.sleep(1000);
             queue.put("2");
+            
             System.out.println("Produced 2");
             Thread.sleep(1000);
             queue.put("3");
